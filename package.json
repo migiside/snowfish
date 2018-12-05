@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/snowfish.js",
+  "types": "dist/snowfish.d.ts",
   "scripts": {
     "prebuild": "rimraf dist && rimraf build",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts",
@@ -12,6 +13,7 @@
     "prepare": "npm run build"
   },
   "author": "migiside",
+  "homepage": "https://github.com/migiside/snowfish",
   "license": "MIT",
   "dependencies": {
     "jsdom": "^12.0.0"
